@@ -1,0 +1,405 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h2
+{
+	text-align: center;
+	color: #fff!important;
+	padding-bottom: 10px;
+	padding-top: 60px;
+}
+h2::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+/*------------Navigation------------*/
+#navbar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;	
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 5px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#navbar ul li a:hover
+{
+	color: #fff!important;
+	background: #000!important;
+}
+.navbar{
+	background-color: #D6D3D3;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+/*---Video----*/
+#videos
+{
+    position: relative;
+	width: 100%;
+	height: 650px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+#video-bg-elem
+{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+.contents
+{
+	text-align: center;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	padding-top: 200px;
+}
+.contents h5
+{
+	color: white;
+	font-size: 26px;
+	font-style: bold;
+}
+.contents h3
+{
+	color: white;
+	font-size: 46px;
+	font-style: bold;
+	padding-bottom: 30px;
+}
+.videos
+{
+	text-align: center;
+	z-index: 1;
+}
+.videos .btn
+{
+	  border: 2px solid #fff;
+	  color: #fff!important;
+	  padding: 15px 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+}
+.videos .btn:hover
+{
+	color: #fff!important;
+	background-color: #000;
+	border-color: #000;
+}
+.modal-content
+{
+	background: transparent!important;
+	border: none!important;
+}
+/*-------About---------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+	background-color: #01011d;
+}
+#about btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+.about-image img
+{
+	height: 300px;
+	position: relative;
+	filter: grayscale(1);
+}
+.about-image img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.about-image a
+{
+	position: absolute;
+	border: 2px;
+	border-color: #fff;
+	background-color: #000;
+}
+/*--------management--------*/
+#management
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../manage.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #c1c1ce!important;
+	background-attachment: fixed;
+	padding-top: 30px;
+}
+#management h4
+{
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+#management p
+{
+	font-size: 14px;
+	margin-top: 10px;
+	color: #ccc;
+}
+.management
+{
+	margin-top :40px;
+}
+.management .col-md-3:hover
+{
+	background: #01011d;
+	cursor: pointer;
+	transition: 0.7s;
+	margin-bottom: 20px;
+}
+.extra
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.extra .col-md-4:hover
+{
+	background: #01011d;
+	cursor: pointer;
+	transition: 0.7s;
+} 	
+.icon
+{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 10px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.we h5{
+	background-color: #000;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.book-logo
+{
+	text-decoration-color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+.book-content
+{
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.tips-logo
+{
+	text-decoration-color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+.tips-content
+{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.video-logo
+{
+	text-decoration-color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+.video-content
+{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.button
+{
+ text-align: center;
+}
+#management button:hover
+{
+ color: #007bff!important;
+}
+/*--------News--------*/
+#News
+{
+	background-color: #c1c1ce;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+.profile-pic
+{
+	margin-top: 25px;
+}
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.mem h5
+{
+	padding-top: 10px;
+	color: #000;
+	text-align: left;
+}
+.mem p{
+	text-align: left;
+	font-size: 12px;
+}
+.mem button
+{
+	border-width: 2px;
+	border-color: #000;
+}
+.mem button:hover
+{
+	background-color: #000;
+	color: #fff;
+}
+/*--------Oppertunity--------*/
+#freehosting
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(webhosting.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #c1c1ce!important;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-size: 38px;
+}
+/*--------Latest Courses--------*/
+#course
+{
+	background-color: #01011d;
+	text-align: center;
+	padding: 30px 30px;
+	color: white;
+}
+#course .course a
+{
+	padding-bottom: 20px;
+}
+#course .course a:hover
+{
+	color: #fff!important;
+	padding-top: 10px;
+}
+.othercourse a
+{
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#course .course p
+{
+	padding-top: 10px;
+	font-size: 16px;
+	font-style: bold;
+}
+/*--------Contact with us--------*/
+#contact
+{
+	background: #c1c1ce;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0!important;
+	border: none!important;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa
+{
+	margin:9px;
+	color: #01011d;
+	font-weight: bold;
+}
+#contact p
+{
+	text-align: center;
+	width: 100%;
+}
+/*--------Footer--------*/
+#footer
+{
+	background: #01011d;
+	color: white;
+}
+.fa-heart-o
+{
+	margin: 3px;
+	color: red;
+}
